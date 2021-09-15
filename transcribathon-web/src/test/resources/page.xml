@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PcGts xmlns="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15  
+    http://schema.primaresearch.org/PAGE/gts/pagecontent/2013-07-15/pagecontent.xsd">
+    <Metadata>
+        <Creator>Adriano Baćac</Creator>
+        <Created>2021-08-17T15:04:51</Created>
+        <LastChange>2021-08-17T15:04:51</LastChange>
+    </Metadata>
+    <Page imageFilename="a0325.tiff" imageWidth="2670" imageHeight="2754">
+        <TextRegion id="r1c0" type="paragraph">
+            <Coords points="189,1040 189,1182 353,1182 353,1040"/>
+            <TextEquiv>
+                <Unicode>Transcription line 1</Unicode>
+            </TextEquiv>
+        </TextRegion>
+        <TextRegion id="r1c1" type="paragraph">
+            <Coords points="327,1041 327,1188 1199,1188 1199,1041"/>
+            <TextEquiv>
+                <Unicode>Transcription line 2</Unicode>
+            </TextEquiv>
+        </TextRegion>             
+    </Page>
+</PcGts>

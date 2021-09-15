@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>transcribathon-api</artifactId>
+		<groupId>eu.transcribathon.europeana</groupId>
+		<version>${version.transcribathonApi}</version>
+	</parent>
+
+  <artifactId>transcribathon-mongo</artifactId>
+  
+  <name>transcribathon-mongo</name>
+  <description>Module for mongo access</description>
+  
+  <dependencies>
+    
+	<dependency>
+		<groupId>eu.transcribathon.europeana</groupId>
+		<artifactId>transcribathon-definitions</artifactId>
+		<version>${version.transcribathonApi}</version>
+	</dependency>
+	
+	<dependency>
+		<groupId>eu.europeana.api.commons</groupId>
+		<version>${api.commons.version}</version>
+		<artifactId>commons-nosql</artifactId>
+		<scope>compile</scope>
+		<exclusions>
+		<exclusion>
+			<groupId>org.mongodb.morphia</groupId>
+			<artifactId>morphia</artifactId>
+		</exclusion>
+
+		</exclusions>
+	</dependency>
+	
+	<dependency>
+		<groupId>org.springframework</groupId>
+		<artifactId>spring-context</artifactId>
+		<!-- 
+		<version>${version.spring}</version>
+		 -->
+	</dependency>
+	
+    
+  </dependencies>
+</project>
