@@ -11,7 +11,28 @@
 	<packaging>pom</packaging>
 	<name>API Hackathon - Parent</name>
 
-	<repositories>
+<!-- 	<repositories> -->
+<!-- 		<repository> -->
+<!-- 			<id>libs-release-local</id> -->
+<!-- 			<name>europeana-releases</name> -->
+<!-- 			<url>http://artifactory.eanadev.org/artifactory/libs-release</url> -->
+<!-- 		</repository> -->
+<!-- 		<repository> -->
+<!-- 			<id>libs-snapshots-local</id> -->
+<!-- 			<name>europeana-snapshots</name> -->
+<!-- 			<url>http://artifactory.eanadev.org/artifactory/libs-snapshot</url> -->
+<!-- 		</repository> -->
+
+<!-- 		<repository> -->
+<!-- 			<id>central</id> -->
+<!-- 			<url>http://central.maven.org/maven2/</url> -->
+<!-- 			<snapshots> -->
+<!-- 				<enabled>false</enabled> -->
+<!-- 			</snapshots> -->
+<!-- 		</repository> -->
+<!-- 	</repositories> -->
+	
+    <repositories>
 		<repository>
 			<id>libs-release-local</id>
 			<name>europeana-releases</name>
@@ -21,14 +42,6 @@
 			<id>libs-snapshots-local</id>
 			<name>europeana-snapshots</name>
 			<url>http://artifactory.eanadev.org/artifactory/libs-snapshot</url>
-		</repository>
-
-		<repository>
-			<id>central</id>
-			<url>http://central.maven.org/maven2/</url>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
 		</repository>
 	</repositories>
 
